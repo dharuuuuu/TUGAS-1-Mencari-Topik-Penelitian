@@ -1,6 +1,6 @@
 # TUGAS-1-Mencari-Topik-Penelitian
 
-– Indentifikasi persoalan praktis yang menurut anda perlu diselesaikan melalui penelitian :
+- Indentifikasi persoalan praktis yang menurut anda perlu diselesaikan melalui penelitian :
 Cara untuk menajamkan dan memperhalus citra menggunakan metode konvolusi
 
 - Dari persoalan praktis itu, pikirkan “research questions” apa yang dapat anda identifikasi :
@@ -10,7 +10,7 @@ Cara untuk menajamkan dan memperhalus citra menggunakan metode konvolusi
 4. Bagaimana teknik konvolusi dapat digunakan untuk mengurangi noise pada citra sambil mempertahankan detailnya?
 5. Apakah terdapat metode konvolusi yang lebih efisien dan efektif dalam memperhalus citra dibandingkan dengan metode konvensional?
 
-– Uraikan beberapa teori yang menurut anda mempunyai keterkaitan dengan topik yang telah diidentifikasi (untuk menunjang aspek Tinjauan Kepustakaan pada saat pembuatan proposal nanti) :
+- Uraikan beberapa teori yang menurut anda mempunyai keterkaitan dengan topik yang telah diidentifikasi (untuk menunjang aspek Tinjauan Kepustakaan pada saat pembuatan proposal nanti) :
 Tema "Cara untuk menajamkan dan memperhalus citra menggunakan metode konvolusi" memiliki keterkaitan dengan beberapa teori dan konsep dalam bidang pemrosesan citra, pengolahan sinyal, dan teori matematika. Berikut adalah beberapa teori yang relevan:
 1. Teori Konvolusi: Konvolusi adalah operasi matematika yang mendasari dalam pengolahan citra. Teori konvolusi menjelaskan bagaimana operasi konvolusi dapat digunakan untuk mengubah citra dengan menerapkan kernel atau filter ke setiap piksel citra. Dalam konteks ini, konvolusi digunakan untuk menghasilkan efek penajaman dan pemperhalusan pada citra.
 2. Teori Filtering: Konsep dasar dalam pemrosesan citra adalah penggunaan filter untuk meningkatkan atau mengurangi fitur-fitur tertentu dalam citra. Teori filtering mencakup filter spasial dan frekuensi yang digunakan dalam proses konvolusi untuk tujuan penajaman dan pemperhalusan.
