@@ -29,3 +29,9 @@ Gambar package berhasil di install di project laravel :
 
 Gambar package dapat ditemukan di folder vendor setelah di install :
 ![Screenshot from 2023-12-14 15-21-56](https://github.com/dharuuuuu/TUGAS-Mencari-Topik-Penelitian/assets/101967157/b9f48d10-9587-47f0-baca-663bfbcde0b6)
+
+# Link Video Mengatasi Eror Saat Package Di install :
+https://drive.google.com/file/d/1pS-PtnLrWdcHJ5Y4jw5Z0tZ2kjkoZSOk/view?usp=sharing
+
+# Link Draft Paper :
+https://docs.google.com/document/d/1KK4CdN_HqY11v2M3x0JgQepHwFOBCPUy/edit?usp=sharing&ouid=100783680209017540309&rtpof=true&sd=true
