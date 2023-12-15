@@ -1,38 +1,31 @@
-# TUGAS-1-Mencari-Topik-Penelitian
+# Judul :
+Pembuatan Package Laravel Sendiri Menggunakan Packagist dan Terintegrasi Dengan GitHub
 
-*JURNAL ACUAN*
+# Penjelasan Singkat:
+Penelitian ini bertujuan untuk mengembangkan sebuah package khusus dalam lingkungan pengembangan Laravel dengan menggunakan Packagist, yaitu repositori paket PHP, dan mengintegrasikannya secara langsung dengan platform GitHub. Package yang dibuat akan dirancang untuk menyediakan fungsionalitas tambahan atau modular yang dapat digunakan dalam proyek-proyek Laravel, dan kemudian diunggah ke Packagist untuk ketersediaan publik. Integrasi dengan GitHub akan memfasilitasi proses pengembangan, kolaborasi, dan manajemen versi secara efisien melalui Git. Penelitian ini tidak hanya menitikberatkan pada aspek teknis pembuatan package, tetapi juga pada proses distribusi dan kolaborasi pengembangan yang terjadi di sepanjang siklus hidup package tersebut.
 
-Judul Paper :
-Real-time Bhutanese Sign Language digits recognition system using Convolutional Neural Network
+# Metode :
+Pembuatan package Laravel sendiri merupakan langkah penting dalam pengembangan perangkat lunak menggunakan framework Laravel. Dengan memahami cara membuat dan mendistribusikan package, pengembang dapat merencanakan dan memanfaatkan ulang kode mereka untuk proyek-proyek berikutnya atau berbagi kontribusi dengan komunitas. Salah satu cara yang populer untuk menyebarkan package adalah melalui Packagist, repositori package PHP yang digunakan secara luas.
 
-Nama Jurnal :
-ICT Express
+Untuk memulai, langkah pertama adalah membuat package Laravel di GitHub. GitHub akan berfungsi sebagai platform kontrol versi dan kolaborasi untuk menyimpan dan mengelola kode sumber. Setelah package dibuat dan dikonfigurasi dengan baik, langkah berikutnya adalah mendaftarkannya di Packagist, sehingga package dapat diakses oleh pengembang lain melalui Composer, manajer dependensi PHP.
 
-Author :
-Karma Wangchuk, Panomkhawn Riyamongkol, Rattapoom Waranusast
+Pada tahap ini, terintegrasi dengan GitHub akan memudahkan pembaruan dan pengelolaan kode sumber secara efisien. Dengan menyediakan dokumentasi yang jelas dan tutorial instalasi, pengembang dapat memastikan bahwa package dapat digunakan dengan mudah oleh orang lain. Dalam pembuatan package Laravel, praktik-praktik terbaik dalam pemrograman berorientasi objek, seperti memisahkan fungsi dan menyediakan antarmuka yang bersih, dapat meningkatkan kualitas dan daya guna package.
 
-Volume, Tahun, Halaman :
-Volume 7, June 2021, Pages 215-220
+Dengan mengikuti langkah-langkah tersebut, pengembang dapat menciptakan dan mendistribusikan package Laravel yang efektif dan dapat diandalkan, memperkaya ekosistem Laravel dan memberikan manfaat bagi komunitas pengembang perangkat lunak PHP secara luas.
 
-Link :
-https://www.sciencedirect.com/science/article/pii/S2405959520301685
+# Referensi :
+- https://www.giirj.com/index.php/giirj/article/view/1365/1276
+- https://arxiv.org/pdf/2108.06262
 
-Abstract yang sudah diterjemahkan :
-Kesenjangan komunikasi antara kaum tuli dan masyarakat adalah perhatian baik bagi orang tua maupun pemerintah Bhutan. Sekolah untuk kaum tuli mendorong orang untuk belajar Bhutanese Sign Language (BSL), tetapi belajar Sign Language (SL) adalah hal yang sulit. Makalah ini menyajikan sistem pengenalan digit BSL menggunakan Convolutional Neural Network (CNN) dan dataset BSL pertama yang berisi 20.000 gambar tanda dari 10 digit statis yang dikumpulkan dari berbagai relawan. Berbagai model SL dievaluasi dan dibandingkan dengan model CNN yang diusulkan. Sistem yang diusulkan telah mencapai akurasi pelatihan sebesar 97,62%.
+# Gambar Pendukung :
+Gambar package buatan sendiri yang sudah diupload di packagist :
+![Screenshot from 2023-12-14 15-20-49](https://github.com/dharuuuuu/TUGAS-Mencari-Topik-Penelitian/assets/101967157/2dd1f69f-932b-487a-9b5d-e77469bc7261)
 
-Tujuan Penelitian :
-Tujuan dari paper ini adalah untuk mengembangkan sistem pengenalan angka dalam Bhutanese Sign Language (BSL) secara real-time menggunakan teknik machine learning. Selain itu, paper ini juga memperkenalkan dataset BSL yang dibuat dengan berbagai gambar dan frame video. Paper ini bertujuan untuk menjembatani kesenjangan dalam teknologi pengenalan isyarat tangan dengan fokus pada Bhutanese Sign Language, yang sebelumnya belum banyak dieksplorasi.
+Gambar code package buatan sendiri yang sudah diupload di github dan terintegrasi ke packagist :
+![Screenshot from 2023-12-14 15-21-05](https://github.com/dharuuuuu/TUGAS-Mencari-Topik-Penelitian/assets/101967157/892631c8-e7cb-4ee8-8c43-a1b564585711)
 
-Metodologi :
-Metodologi penelitian ini terdiri dari empat tahap utama, yaitu: akuisisi data (Data acquisition), pra-pemrosesan (pre-processing), ekstraksi fitur (Feature extraction), dan pengenalan (recognition).
+Gambar package berhasil di install di project laravel :
+![Screenshot from 2023-12-14 15-21-43](https://github.com/dharuuuuu/TUGAS-Mencari-Topik-Penelitian/assets/101967157/0eada01d-efb7-4f22-8817-92eae6139160)
 
-Hasil :
-Hasil dari penelitian ini adalah sebagai berikut:
-1. Penelitian mengevaluasi performa sistem pengenalan digit BSL dengan lima model SL yang berbeda. Model CNN yang dikonfigurasi mirip dengan VGGNet mencapai akurasi tertinggi sebesar 97.62% dengan waktu pelatihan minimum.
-2. Grafik menunjukkan bahwa akurasi dan kerugian model CNN yang diusulkan secara bertahap meningkat selama pelatihan, dan pelatihan dihentikan setelah 34 epoch untuk menghindari overfitting.
-3. Performa model diukur dengan menggunakan precision, recall, dan F1-score untuk setiap kelas. Kelas 6 dan 7 memiliki presisi dan recall terendah sekitar 95%, dengan F1-score terendah sekitar 96%. Namun, rata-rata tertimbang mencapai 98%.
-4. Model yang dilatih digunakan untuk memprediksi digit isyarat BSL secara real-time menggunakan webcam, dan hasil prediksi ditampilkan dalam teks bahasa Dzongkha dan Inggris pada layar output.
-Dengan demikian, penelitian ini berhasil melatih model pengenalan digit BSL dengan akurasi yang baik dan mampu melakukan prediksi secara real-time menggunakan webcam.
-
-Kesimpulan :
-Penelitian ini bertujuan mengenali digit BSL secara real-time dengan menggunakan webcam. Mereka membuat dataset digit BSL dan membandingkan berbagai model SL, dengan model berbasis CNN mengungguli yang lain. Model yang diusulkan mencapai akurasi pelatihan 99,94% dan akurasi pengujian 97,62%. Untuk meningkatkan performa, penambahan gambar ke dataset dan pemanfaatan Transfer Learning seperti VGG16, ResNet, dan MobileNet dapat membantu. Selain itu, penelitian masa depan dapat mencakup pengenalan alfabet BSL dan gerakan dinamis.
+Gambar package dapat ditemukan di folder vendor setelah di install :
+![Screenshot from 2023-12-14 15-21-56](https://github.com/dharuuuuu/TUGAS-Mencari-Topik-Penelitian/assets/101967157/b9f48d10-9587-47f0-baca-663bfbcde0b6)
